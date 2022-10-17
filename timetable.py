@@ -37,7 +37,7 @@ else:
 
 try:
     numberOfDays = int(numberOfDays)
-    assert numberOfDays > 1
+    assert numberOfDays > 0
 except AssertionError:
     print("Error {}: number must be greater than 0".format(numberOfDays))
     exit(0)
