@@ -47,8 +47,8 @@ except ValueError:
 
 response = requests.get('https://mytimetable.leeds.ac.uk/m/api/timetable', params=params, cookies=cookies,
                         headers=headers)
-with open("studentWithPrettyPrint3.json", "w") as write_file:
-    json.dump(response.json(), write_file, indent=4, sort_keys=True)
+# with open("studentWithPrettyPrint3.json", "w") as write_file:
+#     json.dump(response.json(), write_file, indent=4, sort_keys=True)
 
 epoch_time = response.json()['data'][0]['startDate'] / 1000
 date_time = datetime.datetime.fromtimestamp(epoch_time)
