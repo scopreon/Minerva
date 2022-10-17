@@ -25,7 +25,7 @@ headers = {
 time = (datetime.datetime.today()).strftime('%Y-%m-%dT00:00:00.000+01:00')
 params = {
     'start': '{}'.format(time),
-    'limit': '50',
+    'limit': '15',
 }
 
 numberOfDays = 0
