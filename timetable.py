@@ -9,10 +9,10 @@ cookies = {
 }
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:103.0) Gecko/20100101 Firefox/103.0',
+    'User-Agent': '',
     'Accept': 'application/json, text/javascript, */*; q=0.01',
     'Accept-Language': 'en-GB,en;q=0.5',
-    'X-CSRF-TOKEN': '948b22de-174e-450d-896b-05d4e5d74c55',
+    'X-CSRF-TOKEN': '',
     'X-Requested-With': 'XMLHttpRequest',
     'Connection': 'keep-alive',
     'Referer': 'https://mytimetable.leeds.ac.uk/m/',
@@ -22,8 +22,8 @@ headers = {
 }
 
 params = {
-    'start': '2022-10-17T00:00:00.000+01:00',
-    'limit': '50',
+    'start': '',
+    'limit': '',
 }
 
 numberOfDays = int(input('Days: '))
